@@ -4,6 +4,16 @@ cat = [
 ]
 pp cat
 
+class Cats
+    def initialize(named, breed, age)
+        @names = named
+        @type = breed
+        @years = age
+    end
+end
+catting = Cats.new("Whiskers", "Tabby", 5)
+pp catting
+
 #Q2
 class StoreItem
     def initialize(input_name, input_price)
