@@ -34,4 +34,4 @@ end
   
   person = Person.new("Shawn", 42, "accountant")
   pp person
-  pp Person.get_name
+  pp person.get_name
