@@ -1,5 +1,9 @@
 #Q1
-city_populations = {"Chicago" => 2700000, "New York City" => 8400000, "San Francisco" => 800000}
+city_populations = [
+{"Chicago" => 2700000},
+{"New York City" => 8400000}, 
+{"San Francisco" => 800000}
+]
 pp city_populations
 
 #Q2
