@@ -9,8 +9,8 @@ puts a
 bob7 = 50
 b7ob = 50
 boba = 50
-bob3 = 50
-bob9 = 50
+@bob = 50
+bob_ = 50
 bob2 = 50
 bobs = 50
 bob1 = 50
