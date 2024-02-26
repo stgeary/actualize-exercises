@@ -2,7 +2,8 @@
 city_populations = [
 {"Chicago" => 2700000},
 {"New York City" => 8400000}, 
-{"San Francisco" => 800000}
+{"San Francisco" => 800000},
+{"Gotham City" => 832509483}
 ]
 pp city_populations
 

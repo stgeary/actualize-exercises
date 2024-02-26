@@ -11,11 +11,9 @@ pp new_numbers
 
 numbers = [4, 3, 1, 5]
 new_numbers = []
-index = 0
-numbers.each do |numebrs|
-  number = numbers[index]
+numbers.each do |numbers|
+  number = numbers
   new_numbers.push(number + 5)
-  index = index + 1
 end
 pp new_numbers
 
@@ -25,5 +23,4 @@ pp new_numbers
 colors = ["red", "green", "blue"]
 colors.each do |colors|
   puts colors.upcase
-  index = index + 1
 end

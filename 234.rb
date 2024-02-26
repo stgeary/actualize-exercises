@@ -28,9 +28,13 @@ p booyeah                  # 18
 #18: prints 14
 
 #Q2
-2.times do
+index = 0
+while index < 2
   puts "OUTER LOOP"
-  3.times do
+  index2 = 0
+  while index2 < 3
     puts "inner loop"
+    index2 = index2 + 1
   end
+  index = index + 1
 end
